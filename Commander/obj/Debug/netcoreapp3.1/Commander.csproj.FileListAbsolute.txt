@@ -51,3 +51,5 @@ D:\DotNetAPI\Commander\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.CopyCo
 D:\DotNetAPI\Commander\Commander\obj\Debug\netcoreapp3.1\Commander.dll
 D:\DotNetAPI\Commander\Commander\obj\Debug\netcoreapp3.1\Commander.pdb
 D:\DotNetAPI\Commander\Commander\obj\Debug\netcoreapp3.1\Commander.genruntimeconfig.cache
+D:\DotNetAPI\Commander\Commander\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\DotNetAPI\Commander\Commander\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
