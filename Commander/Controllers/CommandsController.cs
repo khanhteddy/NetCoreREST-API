@@ -96,5 +96,28 @@ namespace Commander.Controller
 
             return NoContent();
         }
+        //Delete
+        [HttpDelete("{id}")]
+        public IActionResult DeleteCommand(int id)
+        {
+            // var commandModelFromRepo = _repository.GetCommandById(id);
+            // if(commandModelFromRepo == null)
+            // {
+            //     return NotFound();
+            // }           
+            // _repository.DeleteCommand(commandModelFromRepo);
+            // _repository.SaveChanges();
+            // return NoContent();
+
+            var commandModelFromRepo = _repository.GetCommandById(id);
+            if(commandModelFromRepo == null)
+            {
+                return NotFound();
+            }
+            _repository.DeleteCommand(commandModelFromRepo);
+            _repository.SaveChanges();
+
+            return NoContent();
+        }
    }
 }
